@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+}
+
+.container {
+    height: 100vh;
+    background-image: url('images/interior.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 
+    ". one ."
+    ". two ."
+    ". three .";
+    justify-content: center;
+}
+
+
+.one {
+    background-image: url("images/ablackimage.png"); 
+    display: inline-block;
+    height: 150px;
+    width: 600px;
+    grid-area: one;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h1.box-header {
+    font-size: 200%;
+    color: #ccbeb1;
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+
+
+
+
+
+.two {
+    background-image: url("images/ablackimage.png"); 
+
+    display: inline-block;
+
+    height: 350px;
+    width: 600px;
+    grid-area: two;
+    border-radius: 15px;
+    text-align: center;
+    color: #ccbeb1;
+    position: relative;
+}
+
+.box-header-two {
+    font-size: 200%;
+    color: #ccbeb1;
+    font-weight: bold;
+    margin-top: 0px;
+    
+}
+
+.table-container {
+    position: absolute;
+    margin: auto;
+    color: #ccbeb1;
+
+}
+
+.table-row-bestellijn {
+    display: flex;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.table-caption {
+    text-align: left;
+    font-size: 26px;
+    font-weight: 200;
+    text-decoration: underline;
+    color: white;
+}
+
+.table-name {
+    display: inline;
+    font-size: 18px;
+    margin-right: 160px;
+    margin-left: 0;
+    text-align: left;
+    color: white;
+}
+
+.table-price {
+    display: inline;
+    font-size: 18px;
+    margin-right: 160px;
+    margin-left: 0;
+    text-align: left;
+    color: white;
+}
+
+.table-amount {
+    display: inline;
+    font-size: 18px;
+    margin-right: 160px;
+    text-align: left;
+}
+
+.p-totaal {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.prijs {
+    font-weight: bold;
+    font-size: 150%;
+    width: 400px;
+    display: inline;
+    font-size: 18px;
+    margin-left: 325px;
+    text-align: left;
+    color: white;
+}
+
+.three {
+    background-image: url("images/ablackimage.png"); 
+
+    display: inline-block;
+    text-align: center;
+    grid-area: three;
+    width: 600px;
+    height: 150px;
+    border-radius: 15px;
+    color: #ccbeb1;
+    position: relative;
+
+
+}
+
+.p-home {
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%)
+
+}   

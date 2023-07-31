@@ -1,0 +1,46 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(GrestalScriptDemoRegular-dBYX.ttf);
+}
+ 
+ .topnav {
+    background-color: black;
+    overflow: hidden;
+    opacity: 0.8;
+    font-family: myFirstFont;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 50px;
+  }
+
+#topNavALast {
+  float: right;
+  margin-right: 50px;
+}
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #e6d4bf;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  } 

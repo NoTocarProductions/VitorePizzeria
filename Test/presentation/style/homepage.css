@@ -1,0 +1,210 @@
+.image {
+    background-image: url("images/interior.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 800px;
+    position:relative;
+    z-index: 100;
+}
+body {
+    background-color: black;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(GrestalScriptDemoRegular-dBYX.ttf);
+  }
+
+.image h1 {
+    margin-top: 150px;
+    /* margin-left: 580px; */
+    font-weight: bold;
+    font-family: myFirstFont;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size:680%;
+    text-decoration: wavy;
+    color: #f2f4f3;
+    position: absolute;
+}
+
+.under {
+    text-align: center;
+    color: #f2f4f3;
+    font-size: larger;
+    font-weight:900;
+    margin-bottom: 50px;
+    position: absolute;
+    margin-top: 300px;
+    left: 0;
+    right: 0;
+}
+
+
+form button[name='orderPizza'] {
+    display: inline-block;
+    margin-top: 50px; /* Increase the margin-top value for more space */
+    padding: 12px 24px; /* Increase the padding values for a larger button */
+    font-size: 18px; /* Increase the font-size for a larger button */
+    background-color: #a9927d;
+    color:#f2f4f3;
+    border:none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 15px; 
+    font-weight: bold;
+}
+
+
+button#send {
+    display: inline-block;
+    margin-top: 10px; /* Increase the margin-top value for more space */
+    padding: 12px 24px; /* Increase the padding values for a larger button */
+    font-size: 10px; /* Increase the font-size for a larger button */
+    background-color: #a9927d;
+    color:#f2f4f3;
+    border:none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 15px; 
+    font-size: larger;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    opacity: 0.8;
+    
+}
+
+div.containerLeft {
+    background-color: black;
+    background-image: url("images/pizzastuff.jpg");
+    background-position: center;
+    color: #f2f4f3;
+    float: left;
+    position: relative;
+    width: 45%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 75px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+}
+
+div.containerLeft h1 {
+    margin-top: 100px;
+    /* margin-left: 580px; */
+    font-weight: bold;
+    font-family: myFirstFont;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size:500%;
+    text-decoration: wavy;
+    color: #f2f4f3;
+    position: absolute;
+}
+
+div.containerRight {
+    background-color: black;
+    background-image: url("images/paper.jpg");
+    background-position: center;
+    color: white;
+    float: right;
+    position: relative;
+    width: 45%;
+    height: 500px;
+    margin-top: 20px;
+    margin-right: 75px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+}
+
+div.containerRight h1 {
+    margin-top: 20px;
+    /* margin-left: 580px; */
+    font-weight: bold;
+    font-family: myFirstFont;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size:500%;
+    text-decoration: wavy;
+    color: #f2f4f3;
+    position: absolute;
+}
+
+div.containerRight p {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 3.5%;
+    color: #111;
+    font-weight: bolder;
+    font-size: 120%;
+
+}
+
+span.upperCase {
+    text-transform: capitalize;
+}
+
+
+div.containerUnderLeft {
+    background-color: black;
+    background-image: url("images/outside.jpg");
+    background-position: center;
+    color: white;
+    float: right;
+    position: relative;
+    width: 45%;
+    height: 500px;
+    margin-top: 0px;
+    margin-right: 75px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+a div.containerUnderRight {
+    background-color: black;
+    background-image: url('images/map.jpg');
+    opacity: 0.8;
+    background-position: bottom;
+    color: white;
+    float: left;
+    position: relative;
+    width: 45%;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 75px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+a div.containerUnderRight h1 {
+    margin-top: 40px;
+    /* margin-left: 580px; */
+    font-weight: bold;
+    font-family: myFirstFont;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size:500%;
+    text-decoration: wavy;
+    color: #f2f4f3;
+    position: absolute;
+}
+
+
+
+
+
+
